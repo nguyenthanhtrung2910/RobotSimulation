@@ -1,7 +1,7 @@
 # Simulation for delivery Robot by simpy
-* The field of the environment consists of cells, each of them is instance of Cell object. The Cell object has coordinates, color, target, the robot located on it and neighboring cells (front, right, back, left). Field's informations are loaded from _field.txt_ file. $\\$
-* Commands from controller for each robot in _commands_ folder. $\\$
-* When robot go outside the field or pick up or drop off illegally load or turn through illegal angel, program stop and report it in .log file. $\\$
+* The field of the environment consists of cells, each of them is instance of Cell object. The Cell object has coordinates, color, target, the robot located on it and neighboring cells (front, right, back, left). Field's informations are loaded from _field.txt_ file. <br/>
+* Commands from controller for each robot in _commands_ folder. <br/>
+* When robot go outside the field or pick up or drop off illegally load or turn through illegal angel, program stop and report it in .log file. <br/>
 * All robots shares common field and can not go forward until the next cell is free.
 ## Color Map:
 | 9 |   W |    W |    Y |    W |    Y |    W |    Y |    W |    W |   
